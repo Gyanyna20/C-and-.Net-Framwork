@@ -22,7 +22,7 @@ namespace AbstractClassesAssignment
             // Use polymorphism to create an object of type IQuittable.
             // The Employee object can be assigned to an IQuittable variable
             // because the Employee class implements the IQuittable interface.
-            IQuittable quittableEmployee = sam;
+            IQuittable quittableEmployee = gia;
 
             // Call the Quit() method using the IQuittable object.
             quittableEmployee.Quit();
