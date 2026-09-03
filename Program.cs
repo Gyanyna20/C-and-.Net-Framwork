@@ -11,7 +11,7 @@ namespace AbstractClassesAssignment
             // Create an Employee object and assign values to its properties.
             Employee gia = new Employee()
             {
-                firstName = "Sample",
+                firstName = "Gia",
                 lastName = "Student",
                 Id = 1
             };
