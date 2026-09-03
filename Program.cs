@@ -9,7 +9,7 @@ namespace AbstractClassesAssignment
         static void Main(string[] args)
         {
             // Create an Employee object and assign values to its properties.
-            Employee sam = new Employee()
+            Employee gia = new Employee()
             {
                 firstName = "Sample",
                 lastName = "Student",
@@ -17,7 +17,7 @@ namespace AbstractClassesAssignment
             };
 
             // Call the SayName() method on the Employee object.
-            sam.SayName();
+            gia.SayName();
 
             // Use polymorphism to create an object of type IQuittable.
             // The Employee object can be assigned to an IQuittable variable
